@@ -1,0 +1,20 @@
+# JUNE 2026 INTELLIGENCE CONTENT PACK — SYSTEM README
+This document serves as your index and systemic guide for the 10 data assets built directly from active on-chain metrics, macro shifts, and whale wallet parameters.
+## SYSTEM ASSET DIRECTORY
+├── AIRDROP INTEL
+│   ├── The_2026_Airdrop Efficiency Matrix (The Shift From Free Tokens to Strategic Rewards).pdf       # Behavioural rewards vs Sybil risk models for Base/Backpack
+│   └── The_2026_Airdrop_Graveyard (Dead & Alive Strategies and Target Matrix).pdf                     # Viable operational strategies vs dead points farming scripts
+│
+├── WHALE & LIQUIDITY TRACKING
+│   ├── Smart_Money_Accumulation (Asset & Signal & Key Driver).csv                                     # Core database tracking stable cap ATH & tokenized RWAs
+│   └── On_Chain_Sleuth_Blueprint (Smart Wallets, Top Holdings, Dev Activities).pdf                    # Three-step tracking setup for Dune/GMGN without premium fees
+│
+├── DEFENSIVE PROTOCOLS & OVERDUMP ALERTS
+│   ├── Exit_Liquidity_Red_Flags (7 Signs a Token is About to Dump & Current Market Context).pdf       # A 7-point terminal diagnostic layout to prevent distribution trap entries
+│   └── Meme_Coin_Sentiment_Cheat_Code (Emotion Gauge & Valuation Index & Rule)                        # Syntax score parsing matrix for community chat psychology
+│
+├── EXECUTION ENGINES & CHARTS
+│   ├── The_2026_Narrative_Rotation_Clock( tracking capital shift timelines from AI to RWAGaming ).png # Visualization tracking capital shift timelines from AI to RWA/Gaming
+│   ├── Gas_vs_Greed_Chart (Ethereum Gas & Market Sentiment Correlation).png                           # Real-time gas price vs whale positioning zone map
+│   ├── The_2026_Daily_Crypto_Scan (The 3-3-3 DAILY CRYPTO SCAN_June_2026).pdf                         # Systematic 9-minute master scanning checklist
+│   └── Multi_Chain_Attention_Map (Blockchain & Daily Active Users & Volumn).csv                       # Comparative active DAU & DEX transaction volume datasets
