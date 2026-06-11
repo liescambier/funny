@@ -1,0 +1,289 @@
+================================================================================
+CRYPTO POWER FLOW SIGNALS PACK - COMPLETE DATASET
+================================================================================
+Version: 1.0
+Date Range: 2026-06-06 to 2026-06-11 (rolling 72-144 hour window)
+Data Freshness: Last updated 2026-06-11 04:00 UTC
+Total Files: 13 (10 CSV + 3 DOCX/PDF)
+================================================================================
+OVERVIEW
+================================================================================
+This complete dataset package contains 13 proprietary files tracking institutional
+and smart-money positioning across the crypto market. Data is derived from on-chain
+analysis, exchange order books, funding rate monitoring, whale wallet tracking,
+token unlock schedules, and liquidity heat mapping.
+The pack is designed to surface where capital is moving BEFORE broader market
+reaction, providing actionable alpha for active traders, fund managers, and
+institutional research desks.
+================================================================================
+COMPLETE FILE MANIFEST (ALL 13 FILES)
+================================================================================
+┌────┬────────────────────────────────────────────────────────────────┐
+│ #  │ FILENAME                                                       │
+├────┼────────────────────────────────────────────────────────────────┤
+│ 1  │ whale_accumulation_and_distribution_activity_last_72_hours.csv │
+├────┼────────────────────────────────────────────────────────────────┤
+│ 2  │ funding_rate_divergences_before_major_price_moves_6h_12h_24h.csv│
+├────┼────────────────────────────────────────────────────────────────┤
+│ 3  │ liquidity_heatmap_showing_likely_stop_hunt_zones_with_probability.csv│
+├────┼────────────────────────────────────────────────────────────────┤
+│ 4  │ token_unlock_schedule_and_sell_pressure_risk_next_14_days.csv  │
+├────┼────────────────────────────────────────────────────────────────┤
+│ 5  │ order_flow_signals_highlighting_potential_fake_breakouts.csv   │
+├────┼────────────────────────────────────────────────────────────────┤
+│ 6  │ top_wallets_entering_and_exiting_key_positions_institutional.csv│
+├────┼────────────────────────────────────────────────────────────────┤
+│ 7  │ smart_money_rotation_btc_eth_high_beta_alts_by_session.csv     │
+├────┼────────────────────────────────────────────────────────────────┤
+│ 8  │ short_squeeze_and_liquidation_cluster_alerts_with_oi_density.csv│
+├────┼────────────────────────────────────────────────────────────────┤
+│ 9  │ exchange_inflow_outflow_anomalies_z_score_sell_pressure.csv    │
+├────┼────────────────────────────────────────────────────────────────┤
+│ 10 │ highest_conviction_setups_from_liquidity_and_positioning.csv   │
+├────┼────────────────────────────────────────────────────────────────┤
+│ 11 │ crypto_power_flow_signals_pack_executive_summary_and_methodology.docx │
+├────┼────────────────────────────────────────────────────────────────┤
+│ 12 │ token_unlock_pressure_report_vesting_schedules_and_sell_side_risk_analysis.pdf │
+├────┼────────────────────────────────────────────────────────────────┤
+│ 13 │ whale_liquidity_map_report_institutional_order_book_and_stop_hunt_zones.pdf │
+└────┴────────────────────────────────────────────────────────────────┘
+================================================================================
+FILE DESCRIPTIONS
+================================================================================
+CSV FILES (1-10) - Raw Data for Analysis
+-----------------------------------------
+FILE 1: Whale Accumulation & Distribution Activity (Last 72 Hours)
+   - Tracks wallets holding >$1M USD across 10 major tokens
+   - Net flows, active addresses, accumulation scores (0-10 scale)
+   - Update frequency: every 6 hours
+   - Use case: Identify when whales are accumulating vs distributing
+FILE 2: Funding Rate Divergences Before Major Price Moves
+   - Perpetual swap funding rate anomalies across 6/12/24 hour windows
+   - Positive divergence = funding cooling while price rises (short signal)
+   - Negative divergence = funding heating while price falls (long signal)
+   - Use case: Anticipate reversals before they happen
+FILE 3: Liquidity Heatmap - Stop Hunt Zones with Probability
+   - Order book liquidity clusters with stop-hunt probability scores
+   - Price levels with >$20M in clustered orders
+   - Directional triggers and time estimates
+   - Use case: Avoid getting stopped out, trade with liquidity grabs
+FILE 4: Token Unlock Schedule & Sell Pressure Risk (Next 14 Days)
+   - Upcoming vesting unlocks with sell-pressure risk ratings
+   - Includes recipient type (team/investors/ecosystem)
+   - Remaining vesting days and % of circulating supply
+   - Use case: Avoid tokens before major unlock dumps
+FILE 5: Order Flow Signals - Fake Breakout Detection
+   - Spot vs futures order book imbalances
+   - Identifies false breakouts where liquidity traps traders
+   - 70%+ confidence signals for reversal trades
+   - Use case: Don't chase breakouts, fade the fakes
+FILE 6: Top Wallets Entering & Exiting Key Positions
+   - Real-time tracking of 50+ institutional trading desks
+   - Entry/exit actions with position sizes and unrealized P&L
+   - Labels include Jump, Wintermute, GSR, Cumberland, DWF Labs
+   - Use case: Follow the smart money into positions
+FILE 7: Smart Money Rotation (BTC/ETH/High-Beta Alts)
+   - Capital flow direction between BTC, ETH, and alts
+   - 12-hour rolling windows by trading session (Asia/London/NY)
+   - Beta coefficients for rotation targets
+   - Use case: Rotate ahead of the institutional curve
+FILE 8: Short Squeeze & Liquidation Cluster Alerts
+   - Clusters of short positions vulnerable to liquidation
+   - Open interest + short density + squeeze potential score (1-10)
+   - Estimated liquidatable amounts at trigger prices
+   - Use case: Position for cascading liquidations
+FILE 9: Exchange Inflow/Outflow Anomalies
+   - Z-score anomalies (>2.5 standard deviations from 7-day mean)
+   - 24-hour net flows by exchange (Binance, Coinbase, Bybit, etc.)
+   - Sell-pressure forecasts with time estimates
+   - Use case: Front-run exchange deposit dumps
+FILE 10: Highest Conviction Setups
+   - Top 10 ranked trade setups combining multiple signal confirmations
+   - Entry zones, multiple targets, stop losses, risk-reward ratios
+   - Key catalysts driving each setup
+   - Use case: Execute highest-probability trades
+DOCUMENTATION FILES (11-13) - Reports & Methodology
+----------------------------------------------------
+FILE 11: Crypto Power Flow Signals Pack - Executive Summary & Methodology (.docx)
+   - Complete methodology for all 10 signal types
+   - Data source documentation and aggregation logic
+   - Signal calculation formulas and scoring algorithms
+   - Interpretation guide with real-world examples
+   - Backtest results and performance metrics
+   - Use case: Understand how signals are generated
+FILE 12: Token Unlock Pressure Report - Vesting Schedules & Sell-Side Risk (.pdf)
+   - Visual timeline of all major unlocks (next 90 days)
+   - Tiered risk assessment by token (Extreme/High/Medium/Low)
+   - Historical unlock impact analysis (price action post-unlock)
+   - Wallet concentration analysis for each unlocking event
+   - Actionable trade strategies around unlock dates
+   - Use case: Position around unlock events profitably
+FILE 13: Whale Liquidity Map Report - Institutional Order Book & Stop Hunt Zones (.pdf)
+   - Visual heatmaps of liquidity across BTC/ETH/TOP10 Alts
+   - Institutional order cluster identification
+   - Stop-loss concentration zones with probability heat scores
+   - Liquidity sweep patterns from last 30 days
+   - Predicted liquidity grab zones for next 72 hours
+   - Use case: Place orders where institutions are positioning
+================================================================================
+SIGNAL INTERPRETATION GUIDE (CSV FILES 1-10)
+================================================================================
+ACCUMULATION SCORES (0-10):
+   8-10: Extreme accumulation (multiple large wallets buying)
+   6-7.9: Moderate accumulation
+   4-5.9: Neutral
+   2-3.9: Moderate distribution
+   0-1.9: Extreme distribution
+FUNDING DIVERGENCE TYPES:
+   Positive divergence: Funding negative/falling while price rises → bullish reversal
+   Negative divergence: Funding positive/rising while price falls → bearish reversal
+   Confidence >80%: High probability move within 6-12 hours
+LIQUIDITY STOP-HUNT PROBABILITY:
+   80-100%: Very high - expect sweep within 2-4 hours
+   60-79%: High - expect sweep within 4-8 hours
+   40-59%: Medium
+   Below 40%: Low
+SELL-PRESSURE RISK (unlocks):
+   Extreme: >5% of circulating supply unlocking
+   Very High: 3-5%
+   High: 2-3%
+   Medium: 1-2%
+   Low: <1%
+SHORT SQUEEZE SCORE:
+   9-10: Critical - cascading liquidations likely
+   7-8.9: High - squeeze probable
+   5-6.9: Moderate
+   Below 5: Low
+EXCHANGE FLOW Z-SCORE:
+   >3.0: Major anomaly (top 1% of flows)
+   2.5-3.0: Significant anomaly
+   2.0-2.5: Minor anomaly
+   <2.0: Normal variation
+CONVICTION SCORES (top setups):
+   9-10: Highest conviction - multiple signals aligned
+   8-8.9: Strong conviction
+   7-7.9: Moderate conviction
+   <7: Low conviction (not featured in top 10)
+================================================================================
+TOP 3 HIGHEST CONVICTION SETUPS (as of 2026-06-11)
+================================================================================
+1. PENDLE - Short Squeeze + Whale Accumulation
+   Entry: $4.00-4.08 | Targets: $4.45/$4.75 | Stop: $3.88
+   Conviction: 9.4/10 | Risk:Reward: 3.2:1 | Horizon: 24-48h
+   Catalysts: Extreme funding (-0.0112) + $9.8M whale entry + 91% stop-hunt probability
+2. ARB - Capitulation Reversal
+   Entry: $1.04-1.08 | Targets: $1.18/$1.25 | Stop: $1.00
+   Conviction: 9.1/10 | Risk:Reward: 2.8:1 | Horizon: 48-72h
+   Catalysts: Positive funding divergence (89% confidence) + $67M exchange outflow
+3. SOL - Liquidation Cluster Up
+   Entry: $148-152 | Targets: $162/$170 | Stop: $146
+   Conviction: 8.8/10 | Risk:Reward: 2.5:1 | Horizon: 24-36h
+   Catalysts: $85M short liquidation cluster + positive funding divergence (81%)
+================================================================================
+QUICK REFERENCE CARD
+================================================================================
+┌─────────────────────────┬────────────────────────────────────────────┐
+│ For This Trading Style  │ Use These Files                            │
+├─────────────────────────┼────────────────────────────────────────────┤
+│ Scalping (0-4 hours)    │ Files 3, 5, 8, 13                         │
+├─────────────────────────┼────────────────────────────────────────────┤
+│ Day Trading (4-24h)     │ Files 1, 2, 9, 10                         │
+├─────────────────────────┼────────────────────────────────────────────┤
+│ Swing Trading (2-7 days)│ Files 4, 6, 7, 12                         │
+├─────────────────────────┼────────────────────────────────────────────┤
+│ Position Trading (1+ mo)│ Files 11, 12 (methodology & unlock reports)│
+├─────────────────────────┼────────────────────────────────────────────┤
+│ Risk Management         │ Files 3, 8, 9, 13                         │
+├─────────────────────────┼────────────────────────────────────────────┤
+│ Fundamental Analysis    │ Files 4, 11, 12                            │
+├─────────────────────────┼────────────────────────────────────────────┤
+│ Technical Confirmation  │ Files 2, 5, 7, 10                          │
+└─────────────────────────┴────────────────────────────────────────────┘
+================================================================================
+RECOMMENDED WORKFLOW
+================================================================================
+STEP 1: Start with Documentation
+   - Read File 11 (.docx) to understand methodology
+   - Review File 12 (.pdf) for token unlock risks
+   - Study File 13 (.pdf) for liquidity heatmap insights
+STEP 2: Check Macro Positioning
+   - File 7: Where is smart money rotating?
+   - File 4: Any major unlocks this week?
+STEP 3: Identify Top Setups
+   - File 10: Highest conviction trades ranked
+STEP 4: Validate with Multiple Signals
+   - File 1: Whale confirmation
+   - File 2: Funding divergence alignment
+   - File 8: Squeeze potential
+STEP 5: Fine-Tune Entries/Exits
+   - File 3: Stop-hunt zones for entry/stop placement
+   - File 5: Fake breakout signals for confirmation
+   - File 9: Exchange flow timing
+STEP 6: Risk Management
+   - File 8: Liquidation levels for profit targets
+   - File 13: Whale liquidity map for exit zones
+================================================================================
+DISCLAIMER & RISK WARNINGS
+================================================================================
+This dataset is for INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY.
+- NOT financial advice, trading recommendations, or investment guidance
+- Past signals do not guarantee future results
+- Crypto markets are extremely volatile with risk of total loss
+- Always conduct your own research (DYOR) before trading
+- The creators assume no liability for trading losses incurred using this data
+- Some data points are derived from third-party sources and may contain errors
+- Signal confidence scores are statistical probabilities, not guarantees
+No warranty is provided regarding accuracy, completeness, or timeliness of data.
+================================================================================
+DATA SOURCES & METHODOLOGY
+================================================================================
+Primary sources used to generate this dataset:
+- On-chain wallet labeling (Arkham, Nansen, Dune Analytics)
+- Exchange order book snapshots (Binance, Coinbase, Bybit, Kraken, OKX)
+- Perpetual swap funding rates (Coinglass, Vela)
+- Token unlock schedules (TokenUnlocks, CryptoRank, Vesting)
+- Open interest and liquidation data (Coinglass, Laevitas, Hyperliquid)
+- Whale wallet tracking (Chainalysis, proprietary algorithms)
+- Custom proprietary aggregation and scoring algorithms
+Each signal file includes timestamps and is designed to be updated every 6-12 hours
+for real-time trading applications.
+================================================================================
+DOCUMENTATION FILE DETAILS
+================================================================================
+FILE 11: crypto_power_flow_signals_pack_executive_summary_and_methodology.docx
+   Pages: ~24
+   Sections: Executive Summary, 10 Signal Methodologies, Scoring Algorithms,
+             Backtest Results (6 months), Case Studies, API Documentation
+FILE 12: token_unlock_pressure_report_vesting_schedules_and_sell_side_risk_analysis.pdf
+   Pages: ~18
+   Sections: 90-Day Unlock Calendar, Risk Tier Matrix, Historical Impact Analysis,
+             Token-by-Token Breakdown, Trade Strategy Guide, Watchlist
+FILE 13: whale_liquidity_map_report_institutional_order_book_and_stop_hunt_zones.pdf
+   Pages: ~22
+   Sections: Liquidity Heatmaps (BTC/ETH/TOP10), Stop-Hunt Probability Maps,
+             Institutional Order Cluster Analysis, 30-Day Sweep Patterns,
+             72-Hour Prediction Maps, Order Placement Guide
+================================================================================
+CONTACT & SUPPORT
+================================================================================
+For data licensing inquiries, API access, or custom signal creation:
+   Email: data@cryptopowerflows.io
+   Telegram: @crypto_power_flows
+   Website: https://cryptopowerflows.io
+For technical support with CSV files or data formatting:
+   support@cryptopowerflows.io
+For institutional onboarding and enterprise solutions:
+   enterprise@cryptopowerflows.io
+================================================================================
+VERSION HISTORY
+================================================================================
+v1.0 (2026-06-11)
+- Initial release
+- 10 core CSV signal files
+- 3 documentation files (1 DOCX, 2 PDF)
+- 72-144 hour rolling window for all dynamic data
+- Top 10 conviction setups ranked
+- Complete methodology documentation included
+================================================================================
+END OF README
+================================================================================
