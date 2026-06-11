@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)\\.(txt|pdf|zip|rar|xlsx|docx)",
+      "headers": [
+        {
+          "key": "Content-Disposition",
+          "value": "attachment"
+        }
+      ]
+    }
+  ]
+}
