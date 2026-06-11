@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/(.*)\\.(txt|pdf|zip|rar|xlsx|docx)",
+      "source": "/(.*)\\.(txt|rar|zip|pdf|xlsx|docx)",
       "headers": [
         {
           "key": "Content-Disposition",
